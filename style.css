@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #507D65;
+  text-align: center;
+}
+h1{
+  padding:5px;
+  margin:20px;
+  color:rgba(255, 188, 144, 0.938);
+  font-weight: bolder;
+  font-size: 5vmin;
+}
+.container{
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game{
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:1.5vmin;
+}
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.4);
+  font-size: 8vmin;
+  color: #733535;
+  background-color: aliceblue;
+}
+#reset-btn, #new-btn{
+  padding: 1rem;
+  margin-top: 15px;
+  font-size: 1rem;
+  border-radius:25px;
+  background-color: rgb(36, 36, 36);
+  color: #fff;
+}
+.msgContainer{
+  height: 20vmin;
+}
+p{
+  font-size:6vmin;
+  font-weight: bold;
+  color:#fff;
+  margin-bottom: 5px;
+}
+.hide{
+  display: none;
+}
+
+@media screen and (max-width:1500px) and (min-width:800px) {
+  .calculators{
+      height:480px;
+      width:320px;
+  }
+
+}
+@media screen and (max-width:800px) and (min-width:400px){
+  .calculators{
+      height:450px;
+      width: 300px;
+  }
+}
